@@ -208,3 +208,11 @@ text-decoration: underline;
 .footer .second-list ul li a:hover{
 color:  #0069d9;
 }
+
+
+@media screen and (max-width: 1000px){
+  .container-icons{
+    display: block;
+  }
+  
+}
