@@ -110,13 +110,12 @@ font-family: Regular Italic;
 width: 50%;
 }
 .showcase img{
- width:674px;
+ width:100%;
  height: 480px;
 }
 .showcase{
   display: flex;
   flex-wrap: wrap;
-  align-items:stretch;
 }
 .showcase  h2{
 text-align: center;
@@ -199,8 +198,9 @@ margin-bottom: 50px;
 margin-left: 120px;
 }
 .footer .second-list{
-position: absolute;
-right: 120px;
+
+float: right;
+margin-right: 120px;
 }
 .footer .first-list ul li a:hover{
 text-decoration: underline;
@@ -214,5 +214,5 @@ color:  #0069d9;
   .container-icons{
     display: block;
   }
-  
+
 }
