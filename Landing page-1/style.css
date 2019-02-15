@@ -195,12 +195,11 @@ margin-top: 10px;
 margin-bottom: 50px;
 }
 .footer .first-list{
-margin-left: 120px;
+margin-left: 10%;
 }
 .footer .second-list{
-
 float: right;
-margin-right: 120px;
+margin-right: 10%;
 }
 .footer .first-list ul li a:hover{
 text-decoration: underline;
@@ -211,8 +210,48 @@ color:  #0069d9;
 
 
 @media screen and (max-width: 1000px){
+  .header h1{
+    font-size: 30px;
+  }
+   .container-form{
+     margin-left: 15% ;
+  }
   .container-icons{
     display: block;
+    height: auto;
   }
+  .showcase div{
+   width: 100%;
+   margin: 10px 0;
+ }
+  .testimonials {
+  height: auto;
+ }
+ .testimonials div{
+  display: block;
+   width: 100%;
+  position: relative;
 
+ }
+ .testimonials img{
+  margin-left: 40%;
+  margin-bottom: 15px;
+  margin-top: 15px;
+ }
+ .call-to-action{
+ margin-top: 15px;
+ }
+ .container-form button{
+   width: 460px;
+   margin-top: 10px;
+ }
+ .second-list{
+  float: none!important;
+   margin-top: 0!important;
+   margin-left: 40%;
+   margin-bottom: 20px;
+ }
+ .first-list{
+  margin-left: 30%!important;
+ }
 }
